@@ -1,0 +1,28 @@
+{
+    "name": "portafolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "node-sass": "^7.0.1",
+        "nodemon": "^2.0.15"
+    },
+    "devDependencies": {},
+    "scripts": {
+
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css node-sass --include-path scss bootstrap/scss/bootstrap.scss bootstrap/css/bootstrap.css",
+
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JManuelCuya/Portafolio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JManuelCuya/Portafolio/issues"
+    },
+    "homepage": "https://github.com/JManuelCuya/Portafolio#readme"
+}

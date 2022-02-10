@@ -1,0 +1,37 @@
+header {
+    nav {
+        display: grid;
+        position: sticky;
+        z-index: 0;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        ul {
+            padding-bottom: 5px;
+        }
+        li {
+            display: inline-block;
+            padding: 20px;
+            a {
+                @include formatoLetra;
+                font-size: 20px;
+                color: rgb(0, 0, 0);
+                list-style: none;
+                text-decoration: none;
+                &:hover {
+                    border-bottom: 2px solid rgb(0, 0, 0);
+                }
+            }
+        }
+    }
+    .miDescrip {
+        margin: 2.5% 0 2.5% 5%;
+        h1 {
+            @include formatoLetra;
+            @include titulosNavegacion;
+        }
+        h2 {
+            @include formatoLetra;
+            @include titulosNavegacion;
+            font-size: 2rem;
+        }
+    }
+}
