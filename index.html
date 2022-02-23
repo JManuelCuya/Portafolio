@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a5347873d.js" crossorigin="anonymous"></script>
     <link href="./css/estilos.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon-32x32.png">
     <title>Portafolio - Jorge</title>
@@ -15,6 +16,9 @@
 </head>
 <header>
     <nav>
+        <div class="menuRespon">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </div>
         <ul>
             <li>
                 <a href="">Inicio</a>
@@ -29,6 +33,8 @@
                 <a href="">Contacto</a>
             </li>
         </ul>
+
+
     </nav>
     <div class="miDescrip">
         <h1>
@@ -50,10 +56,12 @@
             <h2>Mis Proyectos</h2>
             <div class="itemProy ">
                 <div class="items ">
-                    <img src="images/proyecto01.jpg " alt="Proyecto Games ">
+                    <img src="images/proyecto01.jpg " alt="ProyectoGames ">
                     <div class="descripProy ">
                         <a href="https://jmanuelcuya.github.io/Project-Silk/index.html" target="_blank">Demo<i class="iconoDem fab fa-chrome "></i></a>
                         <a href="https://github.com/JManuelCuya/Project-Silk.git" target="_blank">Repo<i class="iconoDem fab fa-github "></i></a>
+                    </div>
+                    <div class="descripProy ">
                         <a class="tecnoUsados">HTML</a>
                         <a class="tecnoUsados">CSS3</a>
                         <a class="tecnoUsados">SASS</a>
@@ -61,20 +69,30 @@
 
                 </div>
                 <div class="items ">
-                    <img src="images/proyecto2.jpg " alt="Proyecto Games ">
+                    <img src="images/proyecto2.jpg " alt="ProyectoCakes ">
                     <div class="descripProy ">
                         <a>Demo<i class="iconoDem fab fa-chrome "></i></a>
                         <a>Repo<i class="iconoDem fab fa-github "></i></a>
+
+                    </div>
+                    <div class="descripProy ">
                         <a class="tecnoUsados">HTML</a>
                         <a class="tecnoUsados">CSS3</a>
                         <a class="tecnoUsados">SASS</a>
+                        <a class="tecnoUsados">JavaScript</a>
                     </div>
                 </div>
                 <div class="items ">
-                    <img src="images/proyecto01.jpg " alt="Proyecto Games ">
+                    <img src="images/proyecto03.jpg " alt="Proyecto Games ">
                     <div class="descripProy ">
                         <a>Demo<i class="iconoDem fab fa-chrome "></i></a>
                         <a>Repo<i class="iconoDem fab fa-github "></i></a>
+                    </div>
+                    <div class="descripProy ">
+                        <a class="tecnoUsados">HTML</a>
+                        <a class="tecnoUsados">CSS3</a>
+                        <a class="tecnoUsados">SASS</a>
+
                     </div>
                 </div>
 
@@ -100,27 +118,38 @@
         <div class="wrapper ">
             <div class="icon facebook ">
                 <div class="tooltip ">Facebook</div>
-                <span><i class="fab fa-facebook-f "></i>
+                <a href="https://twitter.com/JorgeMa08683147">
+                    <span><i class="fab fa-facebook-f "></i>
                 </span>
+                </a>
             </div>
 
             <div class="icon twitter ">
                 <div class="tooltip ">Twitter</div>
-                <span><i class="fab fa-twitter "></i></span>
+                <a href="https://twitter.com/JorgeMa08683147">
+                    <span>
+                        <i  class="fab fa-twitter "></i>
+                    </span>
+                </a>
             </div>
             <div class="icon github ">
                 <div class="tooltip ">github</div>
-                <span><i class="fab fa-github "></i></span>
+                <a href="https://twitter.com/JorgeMa08683147">
+                    <span><i class="fab fa-github "></i></span>
+                </a>
             </div>
             <div class="icon linkedin ">
                 <div class="tooltip ">LinkedIn</div>
-                <span><i class="fab fa-linkedin "></i>
+                <a href="https://twitter.com/JorgeMa08683147">
+                    <span><i class="fab fa-linkedin "></i>
                 </i></span>
+                </a>
             </div>
         </div>
         <div class="buttons">
             <div class="container">
-                <a href="https://twitter.com/Dave_Conner" class="btn btn-5 desCV">Descarga mi CV</a>
+                <a href="./doc/CV - Cuya Jorge.pdf" class="btn btn-5 desCV" target="_blank">Descarga mi CV</a>
+
                 <!--End of Button 5 -->
             </div>
             <div class="pie ">
@@ -129,5 +158,7 @@
         </div>
     </footer>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/funciones.js"></script>
 
 </html>

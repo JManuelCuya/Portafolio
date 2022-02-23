@@ -6,20 +6,26 @@ header {
         border-bottom: 1px solid rgb(0, 0, 0);
         ul {
             padding-bottom: 5px;
-        }
-        li {
-            display: inline-block;
-            padding: 20px;
-            a {
-                @include formatoLetra;
-                font-size: 20px;
-                color: rgb(0, 0, 0);
-                list-style: none;
-                text-decoration: none;
-                &:hover {
-                    border-bottom: 2px solid rgb(0, 0, 0);
+            li {
+                display: inline-block;
+                padding: 20px;
+                a {
+                    @include formatoLetra;
+                    font-size: 20px;
+                    color: rgb(0, 0, 0);
+                    list-style: none;
+                    text-decoration: none;
+                    &:hover {
+                        border-bottom: 2px solid rgb(0, 0, 0);
+                    }
                 }
             }
+        }
+        .menuRespon {
+            padding: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            display: none;
         }
     }
     .miDescrip {
